@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         SoundPool(8,AudioManager.STREAM_MUSIC,0)
     }
 
+
     private val sounds = listOf(
         Pair(R.id.do1,R.raw.do1),
         Pair(R.id.re,R.raw.re),
