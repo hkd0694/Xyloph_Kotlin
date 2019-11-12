@@ -10,11 +10,10 @@ import android.widget.TextView
 class MainActivity : AppCompatActivity() {
 
     private val soundPool = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-        SoundPool.Builder().setMaxStreams(8).build()
+            SoundPool.Builder().setMaxStreams(8).build()
     } else {
         SoundPool(8,AudioManager.STREAM_MUSIC,0)
     }
-
 
     private val sounds = listOf(
         Pair(R.id.do1,R.raw.do1),
