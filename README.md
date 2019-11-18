@@ -141,4 +141,4 @@ private val soundPool = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPO
 6. [GpsMap](https://github.com/hkd0694/GpsMap_Kotlin)
 7. [Flashlight](https://github.com/hkd0694/FLight_Kotlin)
 8. [Xylophone](https://github.com/hkd0694/Xyloph_Kotlin)
-9. [Todo 리스트](https://github.com/hkd0694/TodoList)
+9. [Todo 리스트](https://github.com/hkd0694/TodoList_Kotlin)
